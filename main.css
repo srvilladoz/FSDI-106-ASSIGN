@@ -1,0 +1,97 @@
+
+
+
+h1 {
+    color: indigo;
+}
+
+html, body {
+    height: 100vh;
+}
+
+main {
+    height: calc(100vh -56px);
+}
+
+
+.container-fluid {
+    background-color: hotpink;
+}
+
+.hide {
+    display: none;
+}
+
+.container-fluid,
+.container-fluid1 {
+    display: flex;
+    padding: 20px 5px 20px 5px;
+    
+}
+
+.container-fluid1 {
+    background-color: rgb(138, 233, 225);
+}
+
+#list {
+    flex: 2;
+}
+
+#capture-form {
+    flex: 1;
+}
+
+.category-flex {
+    display: flex;
+}
+
+#txtCategory {
+    margin-left: 7px;
+}
+
+#iImportant {
+    font-size: 32px;
+    cursor: pointer;
+}
+
+#iImportant.far {
+    color: #666;
+}
+
+#iImportant.fas {
+    color: #FF1654;
+}
+
+
+
+
+.task {
+    display: flex;
+    background-color: rgb(241, 236, 236); 
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+    border: 1px solid rgb(119, 119, 119);
+    border-radius: 4px;
+    padding: 10px 15px;
+}
+
+.task i,
+.task button {
+    flex: 1;
+}
+
+.task .location,
+.task .due-date {
+    flex: 3;
+}
+
+
+.task .description {
+    flex: 6;
+}
+
+#pendingTasks {
+    display: flex;
+    
+}
